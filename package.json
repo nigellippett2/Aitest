@@ -1,0 +1,17 @@
+{
+  "name": "supabase-task-manager",
+  "version": "1.0.0",
+  "description": "A small test project for adding tasks to Supabase",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "add-task": "node src/index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": ["supabase", "tasks", "todo"],
+  "license": "MIT"
+}
