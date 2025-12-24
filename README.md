@@ -2,6 +2,13 @@
 
 A small test project demonstrating how to add and manage tasks using Supabase.
 
+## Features
+
+- 🖥️ **Web Interface** - Beautiful, modern UI for managing tasks
+- 🔧 **Node.js API** - Programmatic task management functions
+- ✅ Add, view, complete, and delete tasks
+- 🎨 Responsive design with gradient styling
+
 ## Setup
 
 ### 1. Create a Supabase Project
@@ -48,7 +55,19 @@ Edit `.env` with your Supabase credentials:
 npm install
 ```
 
-### 5. Run the Example
+### 5. Choose Your Interface
+
+**Option A: Web Interface (Recommended)**
+
+```bash
+npm run server
+```
+
+Then open http://localhost:3000 in your browser.
+
+See [WEB_SETUP.md](WEB_SETUP.md) for detailed web interface setup instructions.
+
+**Option B: Node.js CLI**
 
 ```bash
 npm start
@@ -66,11 +85,15 @@ The task manager provides these functions:
 ## Project Structure
 
 ```
+├── public/
+│   └── index.html        # Web interface
 ├── src/
 │   ├── index.js          # Example usage script
 │   ├── supabaseClient.js # Supabase client configuration
 │   └── taskManager.js    # Task CRUD operations
+├── server.js             # Web server for the UI
 ├── .env.example          # Environment variables template
 ├── package.json
-└── README.md
+├── README.md
+└── WEB_SETUP.md          # Web interface setup guide
 ```
