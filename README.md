@@ -2,6 +2,8 @@
 
 A small test project demonstrating how to add and manage tasks using Supabase.
 
+**Author:** Nigel Lippett
+
 ## Features
 
 - 🖥️ **Web Interface** - Beautiful, modern UI for managing tasks
